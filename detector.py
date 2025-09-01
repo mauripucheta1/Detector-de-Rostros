@@ -43,8 +43,8 @@ while True:
     # Mostrar el frame
     cv2.imshow("Detección de rostros", frame)
 
-    # Salir con la tecla 'esc'
-    if cv2.waitKey(1) & 0xFF == ord('esc'):
+    # Salir con la tecla 'q'
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 cap.release()
